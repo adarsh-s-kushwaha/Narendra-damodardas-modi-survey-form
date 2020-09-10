@@ -1,97 +1,94 @@
-                                                                                                                                                                                        url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
-                                                                                                                                                                                        body {}
-                                                                                                                                                                                        
-                                                                                                                                                                                        #color {
-                                                                                                                                                                                            background-image: url(background2.jpg);
-                                                                                                                                                                                            background-repeat: no-repeat;
-                                                                                                                                                                                            background-size: cover;
-                                                                                                                                                                                        }
-                                                                                                                                                                                        
-                                                                                                                                                                                        #first {
-                                                                                                                                                                                            text-justify: inter-word;
-                                                                                                                                                                                            align-items: center;
-                                                                                                                                                                                            width: 50%;
-                                                                                                                                                                                            padding: 12px 20px;
-                                                                                                                                                                                            margin: 8px 0;
-                                                                                                                                                                                            display: inline-block;
-                                                                                                                                                                                            border: 1px solid #ccc;
-                                                                                                                                                                                            border-radius: 10px;
-                                                                                                                                                                                            margin: 1px;
-                                                                                                                                                                                            margin-right: 40px;
-                                                                                                                                                                                            color: whitesmoke;
-                                                                                                                                                                                            background-color: transparent;
-                                                                                                                                                                                        }
-                                                                                                                                                                                        
-                                                                                                                                                                                        #title {
-                                                                                                                                                                                            width: 50%;
-                                                                                                                                                                                            padding: 12px 20px;
-                                                                                                                                                                                            margin: 8px 0;
-                                                                                                                                                                                            display: inline-block;
-                                                                                                                                                                                            border: 1px solid #ccc;
-                                                                                                                                                                                            border-radius: 10px;
-                                                                                                                                                                                            margin: 1px;
-                                                                                                                                                                                            margin-right: 40px;
-                                                                                                                                                                                            margin-left: 27%;
-                                                                                                                                                                                            color: white;
-                                                                                                                                                                                        }
-                                                                                                                                                                                        
-                                                                                                                                                                                        #name,
-                                                                                                                                                                                        #place,
-                                                                                                                                                                                        #number,
-                                                                                                                                                                                        #email {
-                                                                                                                                                                                            width: 100%;
-                                                                                                                                                                                        }
-                                                                                                                                                                                        
-                                                                                                                                                                                        h1 {
-                                                                                                                                                                                            text-align: center;
-                                                                                                                                                                                        }
-                                                                                                                                                                                        
-                                                                                                                                                                                        #description {
-                                                                                                                                                                                            text-align: center;
-                                                                                                                                                                                            width: 50%;
-                                                                                                                                                                                            padding: 12px 20px;
-                                                                                                                                                                                            margin: 8px 0;
-                                                                                                                                                                                            display: inline-block;
-                                                                                                                                                                                            border: 1px solid #ccc;
-                                                                                                                                                                                            border-radius: 10px;
-                                                                                                                                                                                            margin: 1px;
-                                                                                                                                                                                            margin-right: 10px;
-                                                                                                                                                                                            margin-left: 27%;
-                                                                                                                                                                                            color: white;
-                                                                                                                                                                                        }
-                                                                                                                                                                                        
-                                                                                                                                                                                        #submit {
-                                                                                                                                                                                            width: 50%;
-                                                                                                                                                                                            background-color: #4CAF50;
-                                                                                                                                                                                            color: white;
-                                                                                                                                                                                            padding: 14px 20px;
-                                                                                                                                                                                            margin: 8px 0;
-                                                                                                                                                                                            border: none;
-                                                                                                                                                                                            border-radius: 20px;
-                                                                                                                                                                                            cursor: pointer;
-                                                                                                                                                                                            margin-left: 20px;
-                                                                                                                                                                                        }
-                                                                                                                                                                                        
-                                                                                                                                                                                        textarea {
-                                                                                                                                                                                            textarea {
-                                                                                                                                                                                                width: 100%;
-                                                                                                                                                                                                height: 150px;
-                                                                                                                                                                                                padding: 12px 20px;
-                                                                                                                                                                                                box-sizing: border-box;
-                                                                                                                                                                                                border: 2px solid #ccc;
-                                                                                                                                                                                                border-radius: 4px;
-                                                                                                                                                                                                background-color: #f8f8f8;
-                                                                                                                                                                                                resize: none;
-                                                                                                                                                                                            }
-                                                                                                                                                                                        }
-                                                                                                                                                                                        
-                                                                                                                                                                                        form {
-                                                                                                                                                                                            margin: 100px;
-                                                                                                                                                                                            margin-top: 30px;
-                                                                                                                                                                                            margin-right: 10%;
-                                                                                                                                                                                            margin-left: 40%;
-                                                                                                                                                                                        }
-                                                                                                                                                                                        
-                                                                                                                                                                                        #radio {
-                                                                                                                                                                                            text-align: left;
-                                                                                                                                                                                        }
+                                                                                                                                                            #color {
+                                                                                                                                                                background-image: url(background2.jpg);
+                                                                                                                                                                background-repeat: no-repeat;
+                                                                                                                                                                background-size: cover;
+                                                                                                                                                            }
+                                                                                                                                                            
+                                                                                                                                                            #first {
+                                                                                                                                                                text-justify: inter-word;
+                                                                                                                                                                align-items: center;
+                                                                                                                                                                width: 50%;
+                                                                                                                                                                padding: 12px 20px;
+                                                                                                                                                                margin: 8px 0;
+                                                                                                                                                                display: inline-block;
+                                                                                                                                                                border: 1px solid #ccc;
+                                                                                                                                                                border-radius: 10px;
+                                                                                                                                                                margin: 1px;
+                                                                                                                                                                margin-right: 40px;
+                                                                                                                                                                color: whitesmoke;
+                                                                                                                                                                background-color: transparent;
+                                                                                                                                                            }
+                                                                                                                                                            
+                                                                                                                                                            #title {
+                                                                                                                                                                width: 50%;
+                                                                                                                                                                padding: 12px 20px;
+                                                                                                                                                                margin: 8px 0;
+                                                                                                                                                                display: inline-block;
+                                                                                                                                                                border: 1px solid #ccc;
+                                                                                                                                                                border-radius: 10px;
+                                                                                                                                                                margin: 1px;
+                                                                                                                                                                margin-right: 40px;
+                                                                                                                                                                margin-left: 27%;
+                                                                                                                                                                color: white;
+                                                                                                                                                            }
+                                                                                                                                                            
+                                                                                                                                                            #name,
+                                                                                                                                                            #place,
+                                                                                                                                                            #number,
+                                                                                                                                                            #email {
+                                                                                                                                                                width: 100%;
+                                                                                                                                                            }
+                                                                                                                                                            
+                                                                                                                                                            h1 {
+                                                                                                                                                                text-align: center;
+                                                                                                                                                            }
+                                                                                                                                                            
+                                                                                                                                                            #description {
+                                                                                                                                                                text-align: center;
+                                                                                                                                                                width: 50%;
+                                                                                                                                                                padding: 12px 20px;
+                                                                                                                                                                margin: 8px 0;
+                                                                                                                                                                display: inline-block;
+                                                                                                                                                                border: 1px solid #ccc;
+                                                                                                                                                                border-radius: 10px;
+                                                                                                                                                                margin: 1px;
+                                                                                                                                                                margin-right: 10px;
+                                                                                                                                                                margin-left: 27%;
+                                                                                                                                                                color: white;
+                                                                                                                                                            }
+                                                                                                                                                            
+                                                                                                                                                            #submit {
+                                                                                                                                                                width: 50%;
+                                                                                                                                                                background-color: #4CAF50;
+                                                                                                                                                                color: white;
+                                                                                                                                                                padding: 14px 20px;
+                                                                                                                                                                margin: 8px 0;
+                                                                                                                                                                border: none;
+                                                                                                                                                                border-radius: 20px;
+                                                                                                                                                                cursor: pointer;
+                                                                                                                                                                margin-left: 20px;
+                                                                                                                                                            }
+                                                                                                                                                            
+                                                                                                                                                            textarea {
+                                                                                                                                                                textarea {
+                                                                                                                                                                    width: 100%;
+                                                                                                                                                                    height: 150px;
+                                                                                                                                                                    padding: 12px 20px;
+                                                                                                                                                                    box-sizing: border-box;
+                                                                                                                                                                    border: 2px solid #ccc;
+                                                                                                                                                                    border-radius: 4px;
+                                                                                                                                                                    background-color: #f8f8f8;
+                                                                                                                                                                    resize: none;
+                                                                                                                                                                }
+                                                                                                                                                            }
+                                                                                                                                                            
+                                                                                                                                                            form {
+                                                                                                                                                                margin: 100px;
+                                                                                                                                                                margin-top: 30px;
+                                                                                                                                                                margin-right: 10%;
+                                                                                                                                                                margin-left: 40%;
+                                                                                                                                                            }
+                                                                                                                                                            
+                                                                                                                                                            #radio {
+                                                                                                                                                                text-align: left;
+                                                                                                                                                            }
