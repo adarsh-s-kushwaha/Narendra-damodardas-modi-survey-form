@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<script>
+    https: //cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
+</script>
+<html>
+<link rel="stylesheet" href="modisurvey.css">
+
+<head>
+    <title>Narendra Damodardas Modi Feedback form</title>
+</head>
+
+<body id="color">
+
+    <head>
+        <h1 id="title"> Narender Damoderdas Modi Feedback Form</h1>
+    </head>
+    <p id="description">Let me know how we can improve India</p>
+    <form id="survey-form">
+        <section id="first">
+
+            <label for="name" id="name-label">Full Name*</label>
+            <input id="name" type="text" placeholder="Name" required>
+            <br></br>
+
+            <label for="Email" id="email-label">Email Id*</label>
+            <input id="email" type="email" placeholder="Email Id" required>
+
+            <br></br>
+            <label for="place" id="place-label">Place*</label>
+            <input id="place" type="text" placeholder="Place" required>
+            <br></br>
+
+            <label for="number" id="number-label">Age*</label>
+            <input id="number" type="number" placeholder="Age" min="1" max="100" required>
+        </section>
+        </div>
+        <section id="first">
+            <p>Which option describes your current role?</p>
+            <div id="dropdown">
+                <label for="dropdown">Select option</label>
+                <select name="dropdown" id="dropdown">
+                <option value="student">student</option>
+                <option value="full-time-job">full-time-job</option>
+                <option value="full-time-learner">full-time-learner</option>
+                <option value="advocate">Advvocate</option>
+                <option value="kisan">kisan</option>
+                <option value="reporter">reporter</option>
+                <option value="goverment employee">goverment-job</option>
+                <option value="Private-employee">Private-employee</option>
+                <option value="prefer-not-say">prefer-not-to-say</option>
+                <option value="other">other</option>
+</select>
+            </div>
+        </section>
+        <section id="first">
+            <p>Would you like to see Narendra Damodardas Modi as Prime Minister of India</p>
+            <label for="yes">Yes</label>
+            <input type="radio" name="yes" value="Yes"><br>
+            <label for="No">No</label>
+            <input type="radio" id="radio" value="no" name="no">
+        </section>
+        <section id="first">
+            <p>what do you like in Narendra Damodardas Modi ?</p>
+            <label for="challanges">challanges</label>
+            <input type="radio" id="challanges">
+            <label for="Way-of-talking">Way of talking</label>
+            <input type="radio" id="way-of-talkig">
+            <label for="support"> Supporting Nature</label>
+            <input type="radio" id="support">
+        </section>
+        <section id="first">
+            <label for="comments">Any comment or suggestion for Narendra Damoderdas Modi</label>
+            <br><textarea style="height: 50px; resize: vertical;" id="comments" placeholder="Enter your comments">
+            </textarea></section>
+        <button id="submit"> submit</button>
+    </form>
+</body>
+
+</html>
